@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-grid-layout",
+  "version": "1.0.0",
+  "description": "A look at using `auto-fit` and a few other little things to make a dynamic grid layout.",
+  "main": "index.html",
+  "scripts": {
+    "serve-gitpod": "browser-sync --watch --server --no-open --no-ui --listen 0.0.0.0",
+    "serve": "browser-sync -f *.html -f *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "Chad Boyce",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
