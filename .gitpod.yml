@@ -8,6 +8,9 @@ ports:
   - port: 3001
     onOpen: ignore
 
+image:
+  file: .gitpod.dockerfile
+
 vscode:
   extensions:
     - gulajavaministudio.mayukaithemevsc
