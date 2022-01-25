@@ -1,0 +1,8 @@
+{
+    "schedule": "daily", // daily|weekly|monthly
+    "ignoredFiles": [],
+    "aggressiveCompression": "true", // true|false
+    "prTitle" : "Custom Imgbot Config",        
+    "prBody" : " optimization ratio {optimization_ratio} 
+                 optimization details {optimization_details}",
+}
