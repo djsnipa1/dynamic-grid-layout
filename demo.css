@@ -1,7 +1,7 @@
 :root {
-  --ff-primary: Heebo, sans-serif;
-  --ff-secondary: Bungee, cursive;
-  --ff-accent: Bungee Shade, cursive;
+  --ff-primary: Heebo, 'Blogger Sans', sans-serif;
+  --ff-secondary: Bungee, 'Blogger Sans', cursive;
+  --ff-accent: Bungee Shade, 'Blogger Sans', cursive;
 }
 
 /* Box sizing rules */
@@ -23,6 +23,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-family: var(--ff-accent)
 }
 
 h1,
@@ -114,7 +115,16 @@ body {
 }
 
 .card {
-  border: 3px solid hotpink;
+  aspect-ratio: 1 / 1.5;
+  /* border: 3px solid hotpink; */
+}
+
+.card__content {
+  background: white;
+  align-self: end;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: 0 .25rem 1rem rgb(0 0 0 / 0.1);
 }
 
 .card__img {
