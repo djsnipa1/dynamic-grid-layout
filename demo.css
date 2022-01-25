@@ -103,7 +103,7 @@ body {
   display: grid;
 }
 
-.stacked > * {
+.stacked>* {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
@@ -120,5 +120,5 @@ body {
 .card__img {
   width: 100%;
   aspect-ratio: 1 / 1;
-  aspect-fit: cover;
+  object-fit: cover;
 }
